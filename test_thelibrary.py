@@ -12,7 +12,7 @@ def test_calculation_bordercase():
     assert t.calculation(0, 0, 0) == 0
 
 def test_calculation_floats():
-    assert t.calculation(0.5, 0.5, 1.) == 2.1
+    assert t.calculation(0.5, 0.5, 1.) == 2.0
 
 def test_calculation_strings():
 	assert t.calculation("Hello", " ", "World") == "Hello World"
